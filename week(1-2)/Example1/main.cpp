@@ -1,11 +1,16 @@
 #include <iostream>
-//Вывести на экран Первую букву имени из символов "*" (звездочка)
 
+using namespace std;
 int main() {
-    std::cout << "     *" << std::endl
-        << "    * *" << std::endl
-        << "   *   *" << std::endl
-        << "  *     *" << std::endl
-        << " *       *" << std::endl;
-    return 0;
+    int n;
+
+    cin >> n;
+    for (int i=1;i<=n;i++){
+        cout<<' '<<endl;
+        for (int j=1;j<=i;){
+         j++;
+        cout<<"0";
+        }
+    }
+
 }
